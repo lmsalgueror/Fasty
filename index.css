@@ -1,0 +1,231 @@
+/*Colores y fuentes
+#F29068 
+#EF7F66
+#ED6865
+#EB5A65
+#EA4E64
+#868D97
+font-family: 'Nunito', sans-serif;
+font-family: 'Lobster', cursive;
+*/
+
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/*Layouts*/
+
+.container {
+    width: 500px;
+}
+
+.main-layout {
+    height: 4000px;
+    border: 4px solid blacK;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 8rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.restaurant-name-logo {
+    height: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: bolder;
+}
+
+.delivery-info {
+    margin: 10px auto;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #dfe5ec;
+    border-radius: 20px;
+}
+
+.combos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.combo-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 800px;
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: white;
+    color: black;
+}
+
+.combo-section:hover {
+    cursor: pointer;
+    border: solid 3px #EB5A65;
+    border-radius: 20px;
+}
+
+.line {
+    border-top: 1px solid #dfe5ec;
+    height: 2px;
+    max-width: 400px;
+}
+
+.radio-bev {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.extra-cost-bev {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: right;
+    margin-top: 0;
+}
+
+.bebidas {
+    margin-bottom: 0;
+}
+
+
+/*Typo*/
+
+.banner h1 {
+    font-family: 'Lobster';
+    font-size: 3rem;
+    line-height: 0;
+    color: tomato;
+}
+
+.banner h3 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    line-height: 1.4rem;
+}
+
+.light-grey {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    color: #868D97
+}
+
+.light-grey i {
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.delivery-info p {
+    line-height: 0;
+    text-align: center;
+}
+
+.combo-section p {
+    color: #868D97
+}
+
+.text-bolder {
+    font-weight: bolder;
+    color: black;
+}
+
+.obligatory {
+    width: 100px;
+    color: black;
+    font-weight: 700;
+    font-size: 0.8rem;
+    border: 2px solid #dfe5ec;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.extra-cost-bev p {
+    color: #868D97
+}
+
+
+/*Images*/
+
+.logo-banner {
+    width: 100px;
+    height: 100px;
+}
+
+.restaurant-logo {
+    width: 50px;
+    border-radius: 200px;
+    margin: 10px;
+}
+
+.combo-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    border: 2px solid snow;
+}
+
+.modal-img {
+    width: 380px;
+    height: 200px;
+    margin: 30px 10px 20px 10px;
+}
+
+
+/*Buttons*/
+
+.modal-close-btn {
+    border: #dfe5ec solid 2px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.modal-close-btn:hover {
+    background-color: #EB5A65;
+    color: white;
+    border: solid 2px #EF7F66;
+}
+
+.shopping-cart-button {
+    width: 200px;
+    height: 50px;
+    background-color: #2bd471;
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 15px;
+    font-size: 1rem;
+}
