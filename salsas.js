@@ -1,0 +1,1 @@
+export const sauces = ["Salsa bbq", "Extra picante", "Extra agridulce", "Miel"]
